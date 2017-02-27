@@ -1,9 +1,5 @@
 'use strict';
 
-/**
- * English word source come from https://github.com/schrbjvc0127/EnglishGame
- */
-
 const electron = require('electron');
 // // Module to control application life.
 const app = electron.app;
@@ -24,7 +20,7 @@ function createWindow () {
     resizable: false,
     frame: false,
     width: 300,
-    height: 150
+    height: 200
   }
 
   // Create the browser window.

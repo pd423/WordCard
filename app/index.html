@@ -1,19 +1,28 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Word card</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/index.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-<!--<div class="settings">Settings</div>-->
-<div class="close">Close</div>
-<div id="main" class="container-fluid">
-    <h1 id="title">apple</h1>
-    <p id="msg">蘋果，蘋果公司</p>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Word card</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    </head>
 
-<script src="js/index.js"></script>
-</body>
+    <body>
+        <div class="settings">Settings</div>
+        <div class="close">Close</div>
+        <div class="loader" id="progress"></div>
+        <div id="main" class="container-fluid">
+            <h1 id="title"></h1>
+            <p id="phonetic"></p>
+            <p id="msg"></p>
+            <p class="align_right"> See more at&nbsp;
+                <a href="#" id="reference_link"> Dy.eye</a>
+            </p>
+        </div>
+
+        <script src="js/index.js"></script>
+        <!-- Enable the jQuery for the client side plugin -->
+        <script>window.$ = window.jQuery = require('jquery');</script>
+        <script src="js/circle_progress_with_material_design.js"></script>
+    </body>
 </html>

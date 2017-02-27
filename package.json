@@ -1,11 +1,11 @@
 {
   "name": "word_card",
-  "version": "0.1.0",
+  "version": "0.1.1.170227",
   "main": "./main.js",
   "scripts": {
     "start": "electron .",
-    "build_mac": "electron-packager ./ WordCard --platform=darwin --arch=x64 --out ~/Desktop/WordCard --version 0.1.0 --overwrite --icon=./app/img/app-icon.icns",
-    "build_windows": "electron-packager ./ WordCard --platform=win32 --arch=x64 --out ~/Desktop/WordCard --version 0.1.0 --overwrite --icon=./app/img/app-icon.ico"
+    "build_mac": "electron-packager ./ WordCard --platform=darwin --arch=x64 --out ~/Desktop/WordCard --version 0.1.1.170227 --overwrite --icon=./app/img/app-icon.icns",
+    "build_windows": "electron-packager ./ WordCard --platform=win32 --arch=x64 --out ~/Desktop/WordCard --version 0.1.1.170227 --overwrite --icon=./app/img/app-icon.ico"
   },
   "devDependencies": {
     "electron": "^1.4.1",
@@ -13,6 +13,6 @@
     "electron-prebuilt": "^1.4.13"
   },
   "dependencies": {
-    "nconf": "^0.7.2"
+    "jquery": "^3.1.1"
   }
 }
